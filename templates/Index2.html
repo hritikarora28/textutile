@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template is working</title>
+</head>
+<body >
+<h1> WELCOME TO THE TEXT ANALYAZER . ENTER THE TEXT BELOW</h1>
+<form action='/analyze' method='get'>
+
+        <textarea name="text" style='margin: 0px; width: 1523px; height: 155px;'></textarea><br>
+    <input type="checkbox" name="removepunc">REMOVE-PUNCTUATION <br>
+    <input type="checkbox" name="fullcaps">UPPERCASE<br>
+     <input type="checkbox" name="newlineremover" >NEW LINE REMOVER<br>
+    <input type="checkbox" name="spaceremover" >SPACE REMOVER<br>
+    <input type="checkbox" name="charcounter" >COUNT THE NUMBER OF CHARACTER<br>
+
+        <button type='submit'>ANAYZING TEXT</button>
+
+</form>
+<!--    go to settings in TEPLATES dis give there 'templates' string then make a dic on tha same place where you have manage.py -->
+<!--the make a html file there and change according to your template note import django.shortcuts render'''-->
